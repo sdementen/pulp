@@ -389,3 +389,4 @@ def writeLP(LpProblem, filename, writeSOS=1, mip=1, max_length=100):
     f.close()
     LpProblem.restoreObjective(wasNone, objectiveDummyVar)
     return vs
+
